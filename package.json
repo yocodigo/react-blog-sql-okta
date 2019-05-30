@@ -1,0 +1,25 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "blog using react for the frontend, okta for authentication, mysql for the database, and express for the server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Joel",
+  "license": "ISC",
+  "dependencies": {
+    "@okta/oidc-middleware": "^1.0.2",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "epilogue": "^0.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.15.6",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "sequelize": "^4.42.0",
+    "sqlite3": "^4.0.4"
+  }
+}
